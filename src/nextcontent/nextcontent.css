@@ -1,0 +1,52 @@
+.nextcontent {
+    text-align: center;
+    margin-top: 40px;
+    background :url('C:\Users\fna\thuchanh\public\img11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    align-items: center;
+}
+.nextcontent i {
+    font-size: 90px;
+    margin-top: 200px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.nextcontent i:hover {
+    color: burlywood;
+    transform:scale(1.2)
+}
+.nextcontent h1 {
+    color: aliceblue;
+    font-size: 70px;
+}
+.nextcontent p {
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+.nextcontent button {
+    padding: 15px 30px 15px 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    transition: 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nextcontent button:nth-child(1) {
+    background-color: rgb(57 111 224);
+    color: aliceblue;
+}
+.nextcontent button:nth-child(1):hover {
+    background-color: rgb(255 105 0);
+}
+.nextcontent button:nth-child(2):hover {
+    background-color: rgb(57 111 224);
+    color: aliceblue;
+}

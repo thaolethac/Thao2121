@@ -1,0 +1,39 @@
+.footers {
+    display: flex;
+    justify-content: space-around;
+    background-color: #25262c;
+    height: 400px;
+
+}
+.own {
+    background-color: #25262c;
+}
+.footers {
+    align-items: center;
+    color: #fff;
+}
+.footers li {
+    padding: 10px;
+    cursor: pointer;
+    color: #919394;
+}
+.footers h2 {
+    color: #ffffff;
+}
+.contacts i {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footers img {
+    zoom : 0.5;
+    padding-bottom: 30px;
+}
+.footers p {
+    color: #919394;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    color: #919394;
+}

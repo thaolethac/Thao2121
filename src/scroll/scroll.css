@@ -1,0 +1,17 @@
+.scroll button {
+    padding: 10px 15px 10px 15px;
+    background-color: blue;
+    opacity: 0.7;
+    border: none;
+    border-radius: 10px;
+
+}
+.scroll {
+    position: fixed;
+    left: 10px;
+    bottom: 50px;
+
+}
+.scroll i {
+    color: bisque;
+}

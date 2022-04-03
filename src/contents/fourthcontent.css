@@ -1,0 +1,72 @@
+.fourthcontent {
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(250 247 242);
+    height: auto;
+}
+.fourthcontent i {
+    margin-top: 90px;
+}
+.ul1 {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom:30px ;
+    
+}
+.ul1 li img {
+    zoom: 0.7;
+    padding-top: 30px;
+    width: 300px;
+}
+.ul1 li {
+    margin-top: 40px;
+    background-color: rgb(255 255 255);
+    height: 250px;
+    width: 230px;
+    box-shadow:0px 0px 100px 15px #dfdddd ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ul1 li h3 {
+    font-size: 20px;
+    padding: 5px;
+    font-style:italic;
+    transition: 0.5s;
+}
+.ul1 li h3:hover {
+    color: aqua;
+}
+.ul1 p {
+    padding-top : 10px;
+    color : rgb(141, 132, 75);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: oblique;
+}
+.ul1 i{
+    transition: 1s;
+}
+.ul1 i:hover {
+    transform: rotateZ(90deg);
+}
+.fourthcontent button {
+    color: #dfdddd;
+    background-color: blue;
+    padding:15px 20px 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.fourthcontent button:hover {
+    opacity: 0.7;
+}
+.last {
+    padding-bottom: 30px;
+
+    
+}

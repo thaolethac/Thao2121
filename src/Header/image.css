@@ -1,0 +1,207 @@
+/* .header {
+    background-image: url('C:\Users\fna\thuchanh\public\img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+  } */
+  .fix {
+    width: 100%;
+    transition: linear;
+  }
+  .header {
+    position:absolute;
+    top:0;
+    width: 100%;
+  }
+ .navbar img {
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  .navbar a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fafafb;
+  }
+  .navbar :hover {
+    color: rgb(156 130 97);
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: #fafafb;
+  }
+  .navbar i {
+    font-size: 20px;
+  }
+  
+  .img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    /* padding: 5px; */
+  }
+  .content {
+    text-align: center;
+    height: 635px;
+    align-items: center;
+    line-height: 50px;
+    margin-top: 210px;
+  }
+  .content p {
+    color: #fafafb;
+    font-size: 20px;
+ 
+  }
+  .content h2 {
+    color: #fafafb;
+    font-size: 70px;
+    padding: 15px;
+    
+  }
+  .content button {
+    color: #fafafb;
+    font-size: 14px;
+    padding: 14px;
+    background-color: rgb(57 111 224);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.98;
+    margin-top: 20px ;
+  }
+  .content button:hover {
+    opacity: 0.8;
+  }
+  .fa-facebook-messenger {
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    align-items: center;
+  }
+  .fa-facebook-messenger {
+    font-size: 35px;
+    color: #4b7dbe;
+    cursor: pointer;
+    transition: 2s;
+  }
+  .fa-facebook-messenger:hover {
+    animation: rotate-center 0.6s ease-in-out both;
+  }
+  
+    @keyframes rotate-center {
+      0% {
+                transform: rotate(0);
+      }
+      100% {
+                transform: rotate(360deg);
+      }
+    }
+    
+  
+  .fa-facebook-messenger {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: aqua;
+  }
+  .first {
+    font-size: 20px;
+    margin-right: 9px;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-style: italic;
+    background-color: #ffffff;
+  }
+  .fa {
+    font-size: 10px;
+  }
+  .first i {
+    font-size: 20px;
+  }
+  .far {
+    display: none;
+  }
+.dropcontent {
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  background-color: #f1f1f1;
+  color: #333;
+  width: 100px;
+  text-align: center;
+  margin-top: 41px;
+}
+.dropdown {
+  position: relative;
+}
+.dropcontent li {
+  border-bottom: solid 1px #fafafb;
+  padding: 8px;
+}
+.hide {
+  position:fixed;
+  bottom: 120px;
+  right: 30px;
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  border-radius:30px ;
+  
+}
+.hide input {
+  border: none;
+  border-bottom: solid 1px #333;
+  width: 80%;
+  padding: 20px;
+  /* border-radius: 10px; */
+}
+.hide input:focus {
+  border: none;
+  border-bottom: solid 1px rgb(255, 253, 253);
+  width: 90%;
+  padding: 20px;
+
+}
+.close {
+  background-color: rgb(75 125 190);
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  height: 240px;
+  margin-top: -10px;
+}
+.close i {
+  font-size: 30px;
+}
+.close h1 {
+  color: #fff ;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fa-xmark {
+  margin-top: 20px;
+  margin-right: -10px;
+  color: #fff;
+}
+.show {
+  display: none;
+}
+.fa-paper-plane-top {
+  position:absolute;
+  top:0;
+}
+.navbar1 {
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+    height: 80px;
+}

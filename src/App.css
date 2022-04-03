@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: auto;
+  overflow: scroll;
+}
+@media screen and (max-width : 800px) {
+  .far {
+    display: flex;
+  }
+  .fa {
+    display: none;
+  }
+  .navbar a:nth-child(2) {
+    display: none;
+  }
+  .navbar a:nth-child(3) {
+    display: none;
+  }
+  .navbar a:nth-child(4) {
+    display: none;
+  }
+  .navbar a:nth-child(5) {
+    display: none;
+  }
+  .navbar a:nth-child(6) {
+    display: none;
+  }
+  .leftin {
+    width: 400px;
+    height: auto;
+    background: url('C:\Users\fna\thuchanh\public\img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin: 20px;
+}
+  .right {
+    display: none;
+  }
+}
+@media screen and (max-width : 1100px) {
+ .fa {
+    display: none;
+  }
+  .navbar a:nth-child(6) {
+    display: none;
+  }
+}
+@media screen and (max-width : 1000px) {
+  .fa {
+    display: none;
+  }
+  .navbar a:nth-child(6) {
+    display: none;
+  }
+  .navbar a:nth-child(5) {
+    display: none;
+  }
+  .secoundcontent {
+    flex-direction: column;
+  }
+  .secoundcontent p {
+    padding-left: 100px;
+  }
+  
+  
+
+}
+@media screen and (max-width : 900px) {
+  .fa {
+    display: none;
+  }
+  .navbar a:nth-child(6) {
+    display: none;
+  }
+  .navbar a:nth-child(5) {
+    display: none;
+  }
+  .navbar a:nth-child(4) {
+    display: none;
+  }
+}
+.search {
+  border: solid 1px #f1f1f1;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  transition: 2s linear;
+}
