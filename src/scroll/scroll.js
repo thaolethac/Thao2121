@@ -4,15 +4,10 @@ import './scroll.css';
 
 const Scroll = () => {
     
-    const [up,setUp] = useState()
-    const Click = () => {
-        setUp(prev => prev - prev)
-    }
-    console.log()
   return (
     <>
         <div className='scroll'>
-            <button onClick={Click}>
+            <button>
              <i class='fas fa-angle-double-up'></i>
             </button>
         </div>
