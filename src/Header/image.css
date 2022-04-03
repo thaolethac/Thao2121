@@ -29,6 +29,12 @@
     opacity: 0.9;
   }
   .navbar {
+    position: fixed;
+    top : 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -204,4 +210,9 @@
     background-color: #333;
     width: 100%;
     height: 80px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
