@@ -24,18 +24,12 @@ const Images = () => {
   // const [image, setImage] = useState(0)
   const [click, setClick] = useState(true)
   const [hehe, setHehe] = useState(true)
-  const [ kaka, setKaka] =useState(true)
   const inputElement = useRef()
   const Click = () => {
       setClick(!click)
       inputElement.current.focus()
       
-  }
-  // useEffect(() =>{
-  //   setInterval(() => {
-  //     setImage(prev => prev +1)
-  //   }, 5000);
-  // },[image]) 
+  } 
   let image = 0;
   setInterval(() => {
       image = image +1
@@ -44,12 +38,7 @@ const Images = () => {
         setHehe(!hehe)
         inputElement.current.focus()
   }
-  // const Click3 = () => {
-  //     setHehe(true)
-  // }
-  const Click11 = () => {
-      setKaka(!kaka)
-  }
+
   return (
     <>
   
@@ -77,7 +66,7 @@ const Images = () => {
         </div>
                <img src={data[image].url} alt='Thao' className='fix' />
         <div className='header'>
-            <div className={kaka ? 'navbar' : 'navbar navbar1' }>
+            <div className='navbar'>
                 <a href='#HOME'><img src='img4.png' alt='Thao' /></a>
                 <a href='#HOME'>HOME</a>
                 <a href='#FEATURES'>FEATURES</a>
@@ -90,7 +79,7 @@ const Images = () => {
                 <i class="material-icons">perm_contact_calendar</i>
             </div>
             <hr></hr>
-            <div className='content' onClick={Click11} >
+            <div className='content'>
                 <p>WHAT NEXT COUNTRY ?</p>
                 <h2>Discover Night Paris</h2>
                 <button>BOOK YOUR TRAVEL</button>
